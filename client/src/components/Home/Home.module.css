@@ -1,0 +1,31 @@
+.container {
+  background-color: #899394;
+  height: 89.5vh;
+}
+
+.container .line {
+  border-color: #919e9e;
+  width: 86vw;
+}
+
+.cardContainer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #899394;
+}
+
+.cardContainer .error {
+  margin-top: 5%;
+  color: rgb(112, 3, 3);
+}
+
+.cardContainer .loading {
+  margin-top: 4%;
+}

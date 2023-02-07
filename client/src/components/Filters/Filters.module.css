@@ -1,0 +1,26 @@
+.butContainer {
+  background-color: #899394;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.butContainer .optionsCont {
+  font-size: 1.1em;
+  font-weight: 600;
+  margin: 1%;
+}
+
+.butContainer .optionsCont .select {
+  font-weight: 600;
+  width: 150px;
+  border-radius: 7px;
+  border: none;
+  margin-left: 5px;
+}
+
+.line {
+  border-color: #919e9e;
+  width: 86vw;
+}

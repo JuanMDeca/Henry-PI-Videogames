@@ -1,0 +1,150 @@
+.container {
+  background-color: #899394;
+  color: #b4bcbd;
+  height: 89.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line {
+  border-color: #919e9e;
+  width: 86vw;
+  margin: 0;
+}
+
+.formContainer {
+  position: relative;
+  background-color: rgb(51, 51, 51);
+  margin-top: 7vh;
+  height: 78vh;
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.form {
+  padding: 0px 5px 0px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60vh;
+  width: 35vw;
+}
+
+.labels {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.1em;
+  font-weight: 600;
+  margin: 7px 0 0 0;
+}
+
+.labelSelect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.1em;
+  font-weight: 600;
+  width: 20vw;
+  margin: 5% 0 0 0;
+  /* height: 44px; */
+}
+
+.list {
+  color: #b4bcbd;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 5px;
+  column-gap: 5px;
+  margin: 2% 0;
+}
+
+.button {
+  background-color: #899394;
+  color: rgb(51, 51, 51);
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  margin: 5% 0 0 0;
+  font-size: 1.1em;
+}
+
+.button:hover {
+  color: white;
+  text-shadow: 0 0 5px #b4bcbd;
+}
+
+.buttonOff {
+  background-color: rgb(51, 51, 51);
+  color: rgb(51, 51, 51);
+  margin: 5% 0 0 0;
+  border: none;
+}
+
+.goodDesc {
+  border-radius: 5px;
+  border-bottom: 2px solid green;
+  width: 30vw;
+  height: 60px;
+  resize: vertical;
+}
+
+.errorDesc {
+  border-radius: 5px;
+  border: 2px solid red;
+  width: 30vw;
+  height: 60px;
+  resize: vertical;
+}
+
+.error {
+  border-radius: 5px;
+  width: 20vw;
+  border: 2px solid red;
+}
+
+.errorDiv {
+  color: red;
+  width: 20vw;
+}
+
+.warning {
+  border-radius: 5px;
+  width: 20vw;
+  border: 2px solid orange;
+}
+
+.warningDiv {
+  color: orange;
+  width: 20vw;
+}
+
+.good {
+  border-radius: 5px;
+  width: 20vw;
+  border: 2px solid green;
+}
+
+/* .container .formContainer .form .labels .error {
+  border-radius: 5px;
+  width: 100%;
+  border-color: red;
+}
+
+.container .formContainer .form .labels .warning {
+  border-radius: 5px;
+  width: 100%;
+  border-color: orange;
+}
+
+.container .formContainer .form .labels .good {
+  border-radius: 5px;
+  width: 100%;
+  border-color: green;
+} */

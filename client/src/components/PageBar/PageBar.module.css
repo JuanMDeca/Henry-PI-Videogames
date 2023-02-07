@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background-color: #899394;
+  /* background-color: red; */
+}
+
+.number {
+  background-color: rgb(51, 51, 51);
+  color: #b4bcbd;
+  font-size: 1.1em;
+  font-weight: 600;
+  margin: 3px;
+  height: 30px;
+  width: 40px;
+  border: none;
+  border-radius: 5px;
+}
+
+.numberOn {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  font-size: 1.1em;
+  font-weight: 600;
+  margin: 3px;
+  height: 30px;
+  width: 40px;
+  border: none;
+  border-radius: 5px;
+}
+
+.number:hover {
+  color: white;
+  text-shadow: 0 0 5px #b4bcbd;
+}

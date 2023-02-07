@@ -1,0 +1,100 @@
+.container {
+  background-color: #899394;
+  width: 100%;
+  height: 100%;
+  min-height: 83.4vh;
+  /* padding-top: 3%; */
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line {
+  border-color: #919e9e;
+  width: 86vw;
+}
+
+.detailContainer {
+  color: #b4bcbd;
+  width: 40%;
+  background-color: rgb(73, 73, 73);
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img {
+  width: 98%;
+  margin-top: 0.8%;
+  border-radius: 17px;
+}
+
+.gameName {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+.mapContainer {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 6px; /* Separa arriba y abajo */
+  column-gap: 6px; /* Separa para los costados */
+}
+
+.map {
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: rgb(51, 51, 51);
+  border-radius: 5px;
+  outline-width: 10px;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.descContainer {
+  width: 90%;
+  background-color: rgb(51, 51, 51);
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 10px;
+  border-color: #738b8d;
+}
+
+.description {
+  width: 100%;
+}
+
+.rating {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 1.4em;
+  font-weight: 600;
+  color: rgb(173, 78, 78);
+}
+
+.publication {
+  font-size: 1em;
+  font-weight: 600;
+  padding-bottom: 2%;
+}
+
+.loading {
+  margin-top: 10%;
+}
+
+.error {
+  margin-top: 5%;
+  color: rgb(112, 3, 3);
+}

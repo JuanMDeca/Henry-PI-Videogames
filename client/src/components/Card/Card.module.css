@@ -1,0 +1,68 @@
+.card {
+  position: relative;
+  margin: 5px;
+  width: 340px;
+  height: 320px;
+  border-radius: 20px;
+  overflow: hidden; /*todo lo que ponga dentro del div pero que no estè adentro de la caja del html, lo oculta*/
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+  background-color: rgb(73, 73, 73);
+}
+
+.card .link {
+  text-decoration: none;
+  color: black;
+}
+
+.card:hover {
+  width: 343px;
+  height: 323px;
+  margin: 3.5px;
+}
+.card .image {
+  position: relative;
+  overflow: hidden;
+  height: 66.6%;
+}
+
+.card .image img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.card .details {
+  width: 100%;
+  height: 33.4%;
+  background: linear-gradient(0deg, gray 30%, transparent);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.card .name {
+  font-size: 1.3em;
+  margin: 5%;
+}
+
+.card .genres {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 5px;
+  column-gap: 5px;
+}
+
+.card .genres .map {
+  z-index: 5;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: rgb(51, 51, 51);
+  color: #b4bcbd;
+  border-radius: 5px;
+  outline-width: 10px;
+}
