@@ -1,6 +1,9 @@
 import { Link, useHistory } from "react-router-dom";
 import { useState } from "react";
 import style from "./NavBar.module.css";
+import Login from "../Login/Login";
+import Logout from "../Logout/Logout";
+import UserData from "../UserData/UserData";
 
 const NavBar = () => {
   const history = useHistory();
@@ -30,6 +33,11 @@ const NavBar = () => {
           <Link to="/form" className={style.button}>
             <button className={style.button}>Crear juego</button>
           </Link>
+          <Login />
+          <Logout />
+        </div>
+        <div>
+          <UserData />
         </div>
         <div>
           <input

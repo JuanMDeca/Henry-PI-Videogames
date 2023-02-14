@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
+import { Auth0Provider } from "@auth0/auth0-react";
 import store from "./redux/store";
 import reportWebVitals from "./reportWebVitals";
 
@@ -12,7 +13,13 @@ ReactDOM.render(
     {/* este ↑ sirve para que lo que esta adentro pueda usar el estore de ridux */}
     <BrowserRouter>
       {/* este ↑ otro sirve para que lo que esta adentro pueda usar las rutas  */}
-      <App />
+      <Auth0Provider
+        domain={process.env.REACT_APP_AUTH0_DOMAIN}
+        clientId={process.env.REACT_APP_AUTH0_CLIENT_ID}
+        authorizationParams={{ redirect_uri: window.location.origin + "/home" }}
+      >
+        <App />
+      </Auth0Provider>
     </BrowserRouter>
   </Provider>,
   document.getElementById("root")
