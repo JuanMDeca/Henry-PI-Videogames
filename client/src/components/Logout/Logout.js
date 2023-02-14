@@ -3,6 +3,7 @@ import style from "./Logout.module.css";
 
 const LogoutButton = () => {
   const { logout } = useAuth0();
+
   return (
     <button
       onClick={() => logout({ returnTo: window.location.origin })}

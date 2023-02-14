@@ -3,6 +3,7 @@ import style from "./Login.module.css";
 
 const LoginButton = () => {
   const { loginWithRedirect } = useAuth0();
+
   return (
     <button onClick={() => loginWithRedirect()} className={style.button}>
       Login

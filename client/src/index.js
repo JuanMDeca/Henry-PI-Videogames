@@ -5,7 +5,6 @@ import { Provider } from "react-redux";
 import { Auth0Provider } from "@auth0/auth0-react";
 import store from "./redux/store";
 import reportWebVitals from "./reportWebVitals";
-
 import App from "./App";
 
 ReactDOM.render(

@@ -10,7 +10,7 @@ const NavBar = () => {
 
   const [name, setName] = useState("");
 
-  //↓Acá mando lo que escribo en el buscador al estado local
+  //↓ Acá mando lo que escribo en el buscador al estado local
   const handleInput = (event) => {
     event.preventDefault();
     const value = event.target.value;
